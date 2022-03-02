@@ -19,13 +19,7 @@ firstly open tools -> options -> type "search extension" there is three options 
 3-do you want use visual studio Browser or not (default is true) if true will use visual studio Browser , 
 else use defaultBrowser which you put it's path (default is Edge)
 
-# what is new in version 1.1
 
-Add search by google and stakoverflow and bing
-
-Add optional open by default edge or add your favourit browser path 
-
-choose your favourit search engine it by default google
 
 ========================================================
 # change configuration 
