@@ -7,12 +7,12 @@ namespace SearchExtension
 {
     internal sealed partial class Vsix
     {
-        public const string Id = "SearchExtension.ddf37b8b-0909-4bf9-b3d1-71aabecac473";
-        public const string Name = "SearchExtension";
-        public const string Description = @"..";
+        public const string Id = "SearchSelection.ddf37b8b-0909-4bf9-b3d1-71aabecac473";
+        public const string Name = "SearchSelection";
+        public const string Description = @"Easy to search for selection inside editor";
         public const string Language = "en-US";
         public const string Version = "1.1";
         public const string Author = "Mohamed Abdalsalam";
-        public const string Tags = "";
+        public const string Tags = "Productivity";
     }
 }
