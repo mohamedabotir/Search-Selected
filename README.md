@@ -28,12 +28,16 @@ Add optional open by default edge or add your favourit browser path
 choose your favourit search engine it by default google
 
 ========================================================
-#change configuration
+# change configuration 
+
 Step1
+
 ![step1](https://user-images.githubusercontent.com/52336027/156454680-2c529a73-920b-48a7-9873-7eae5181bf7b.png)
 Step2
+
 ![2](https://user-images.githubusercontent.com/52336027/156454682-87ab2fef-432c-4074-bb7f-69fe463a857b.png)
 Step3
+
 ![3](https://user-images.githubusercontent.com/52336027/156454676-26276cb6-5537-45ce-a969-7f79d8c8d79d.png)
 
 
