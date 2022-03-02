@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+  <Include href="KnownImageIds.vsct" />
+  <Include href="VSGlobals.vsct" />
+
+  <Commands package="SearchExtension">
+  
+    <Groups>
+      <Group guid="guidSearchExtensionPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN" />
+      </Group>
+    </Groups>
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Commands\Resources\SearchCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+    </Bitmaps>
+    <Buttons>
+      <Button guid="guidSearchExtensionPackageCmdSet" id="cmdidSearchCommand" priority="0x0100" type="Button">
+        <Parent guid="guidSearchExtensionPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPicSearch" />
+        <Strings>
+          <ButtonText>Search</ButtonText>
+        </Strings>
+      </Button>
+      
+    </Buttons>
+   
+  </Commands>
+  <KeyBindings>
+    <KeyBinding guid="guidSearchExtensionPackageCmdSet" id="cmdidSearchCommand" editor="guidVSStd97" key1="S"  mod1="Alt"/>
+  </KeyBindings>
+  <Symbols>
+    <GuidSymbol name="SearchExtension" value="{3615658b-2a49-4ad4-ad33-4b751a93d35e}">
+      
+    </GuidSymbol>
+  
+    <GuidSymbol value="{9fe7d6b8-faec-4f03-9598-0106f2108e90}" name="guidSearchExtensionPackageCmdSet">
+      <IDSymbol value="4128" name="MyMenuGroup" />
+      <IDSymbol value="256" name="cmdidSearchCommand" />
+    </GuidSymbol>
+  
+    <GuidSymbol value="{f05fb9db-0eec-4ad6-8603-13551f43a874}" name="guidImages">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  </Symbols>
+  
+</CommandTable>
