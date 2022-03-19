@@ -1,4 +1,4 @@
-you can use it with Two options firstly:
+you can use it with Two options firstly
 
 select text and click right-click then click search will navigate you by default ,
 for microsoft edge with google search 

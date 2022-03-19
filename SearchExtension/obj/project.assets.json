@@ -10013,11 +10013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ex\\Search-Selected\\SearchExtension\\SearchExtension.csproj",
+      "projectUniqueName": "D:\\Search-Selected\\SearchExtension\\SearchExtension.csproj",
       "projectName": "SearchExtension",
-      "projectPath": "D:\\ex\\Search-Selected\\SearchExtension\\SearchExtension.csproj",
+      "projectPath": "D:\\Search-Selected\\SearchExtension\\SearchExtension.csproj",
       "packagesPath": "C:\\Users\\H\\.nuget\\packages\\",
-      "outputPath": "D:\\ex\\Search-Selected\\SearchExtension\\obj\\",
+      "outputPath": "D:\\Search-Selected\\SearchExtension\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

@@ -108,7 +108,7 @@ namespace SearchExtension.Commands
               
                 DteInstance.StatusBar.Text = $"Searching {text}";
                 OutputWindow.OutputString($"\nLog {DateTime.Now} Searching:{text}\n");
-                string Url = string.Format(options.Url, text);
+                string Url = string.Format(options.Url, text.Replace(" ","%20"));
                 if (options.UseVSBrowser)
                     DteInstance.ItemOperations.Navigate(Url, vsNavigateOptions.vsNavigateOptionsDefault);
                 else

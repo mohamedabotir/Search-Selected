@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OWkg750ik8vnoTe0IYbSy08mpCu7i4tB6MZDXLe2thcNar6T2QoTud0yA0C84mrymxh7zMbTZevq9nV+jMmomA==",
+  "dgSpecHash": "ia9+4l0w14bZjwReVmX7WtzvkjuhHhkGkyqUex4ITR6kWgYHBb3XZ2WYld8na6CdPmHFm9a3z+JlnDpMVTf5yg==",
   "success": true,
-  "projectFilePath": "D:\\ex\\Search-Selected\\SearchExtension\\SearchExtension.csproj",
+  "projectFilePath": "D:\\Search-Selected\\SearchExtension\\SearchExtension.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\H\\.nuget\\packages\\community.visualstudio.toolkit.17\\17.0.330\\community.visualstudio.toolkit.17.17.0.330.nupkg.sha512",
     "C:\\Users\\H\\.nuget\\packages\\community.visualstudio.toolkit.analyzers\\1.0.330\\community.visualstudio.toolkit.analyzers.1.0.330.nupkg.sha512",
