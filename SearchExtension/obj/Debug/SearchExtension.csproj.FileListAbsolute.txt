@@ -79,7 +79,6 @@ D:\Search-Selected\SearchExtension\bin\Debug\Community.VisualStudio.Toolkit.dll
 D:\Search-Selected\SearchExtension\bin\Debug\Resources\Icon.png
 D:\Search-Selected\SearchExtension\bin\Debug\Guide.txt
 D:\Search-Selected\SearchExtension\bin\Debug\LICENSE.txt
-D:\Search-Selected\SearchExtension\bin\Debug\ReleaseNote1.1.txt
 D:\Search-Selected\SearchExtension\bin\Debug\SearchExtension.dll
 D:\Search-Selected\SearchExtension\bin\Debug\SearchExtension.pdb
 D:\Search-Selected\SearchExtension\bin\Debug\SearchExtension.pkgdef
@@ -102,3 +101,4 @@ D:\Search-Selected\SearchExtension\obj\Debug\SearchExtension.latest.pkgdef
 D:\Search-Selected\SearchExtension\obj\Debug\extension.vsixmanifest
 D:\Search-Selected\SearchExtension\obj\Debug\files.json
 D:\Search-Selected\SearchExtension\obj\Debug\createTemplateManifests.cache
+D:\Search-Selected\SearchExtension\bin\Debug\ReleaseNote1.2.txt

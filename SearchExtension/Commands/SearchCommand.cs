@@ -2,6 +2,7 @@
 using System.ComponentModel.Design;
 using System.Diagnostics;
 using System.Text;
+using System.Windows.Forms;
 using EnvDTE;
 using Microsoft;
 using SearchExtension.Options;
@@ -103,12 +104,31 @@ namespace SearchExtension.Commands
             }
 
             var text = textSelection?.Text?.Trim();
+            var clipboard = Clipboard.GetText();
             if (!String.IsNullOrWhiteSpace(text))
             {
               
                 DteInstance.StatusBar.Text = $"Searching {text}";
                 OutputWindow.OutputString($"\nLog {DateTime.Now} Searching:{text}\n");
                 string Url = string.Format(options.Url, text.Replace(" ","%20"));
+                if (options.UseVSBrowser)
+                    DteInstance.ItemOperations.Navigate(Url, vsNavigateOptions.vsNavigateOptionsDefault);
+                else
+                    System.Diagnostics.Process.Start(new ProcessStartInfo(@options.BrowserPath)
+                    {
+
+                        UseShellExecute = true,
+                        Arguments = Url
+                    });
+            }
+
+            if (clipboard != null && String.IsNullOrWhiteSpace(text))
+            {
+                clipboard = clipboard.Replace(" ", "%20");
+
+                DteInstance.StatusBar.Text = $"Searching {clipboard}";
+                OutputWindow.OutputString($"\nLog {DateTime.Now} Searching:{clipboard}\n");
+                string Url = string.Format(options.Url, clipboard);
                 if (options.UseVSBrowser)
                     DteInstance.ItemOperations.Navigate(Url, vsNavigateOptions.vsNavigateOptionsDefault);
                 else
