@@ -1,12 +1,12 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="SearchSelection.ddf37b8b-0909-4bf9-b3d1-71aabecac473" Version="1.1" Language="en-US" Publisher="Mohamed Abdalsalam" />
+    <Identity Id="SearchSelection.ddf37b8b-0909-4bf9-b3d1-71aabecac473" Version="1.2" Language="en-US" Publisher="Mohamed Abdalsalam" />
     <DisplayName>SearchSelection</DisplayName>
-    <Description xml:space="preserve">Easy to search for selection inside editor</Description>
+    <Description xml:space="preserve">Easy to search for selection inside editor and search inside bing,google,stackoverflow</Description>
     <MoreInfo>https://github.com/mohamedabotir/Search-Selected</MoreInfo>
     <License>LICENSE.txt</License>
     <GettingStartedGuide>Guide.txt</GettingStartedGuide>
-    <ReleaseNotes>ReleaseNote1.1.txt</ReleaseNotes>
+    <ReleaseNotes>ReleaseNote1.2.txt</ReleaseNotes>
     <Icon>Resources\Icon.png</Icon>
     <PreviewImage>Resources\Icon.png</PreviewImage>
     <Tags>Productivity</Tags>

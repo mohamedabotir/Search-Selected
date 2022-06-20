@@ -1,0 +1,7 @@
+Release note 1.2
+
+Search any copied  text from any window like exception window
+steps:
+1-select text 
+2-ctrl + c
+3-alt + s
